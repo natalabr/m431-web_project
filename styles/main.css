@@ -7,3 +7,21 @@
     border: 0;
     border-collapse: collapse;
 }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.content {
+    justify-content: center;
+    min-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+header > img {
+    size: 30px;
+}
