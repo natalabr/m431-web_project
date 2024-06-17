@@ -5,13 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SprachWelt</title>
     <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body>
     <div class="content">
-        <header>
+        <header class="top-nav">
             <img src="/images/SprachenWelt -bluebackground.png" alt="SprachWelt logo">
-            <div class="top-nav"></div>
+            <nav>
+                <ul role="navbar">
+                    <li role="none"><a id="home-nav" role="menuitem" href="/index.html" class="selected">Home</a></li>
+                    <li role="none">
+                        <a id="grammatik-nav" href="/pages/grammatik.html">Grammatik</a>
+                        <ul id="grammatik-subnav" role="menu" class="sub-nav">
+                            <li role="menuitem"><a href="/pages/grammatik/grammatik_A.html">A1/A2</a></li>
+                            <li role="menuitem"><a href="/pages/grammatik/grammatik_B.html">B1/B2</a></li>
+                        </ul>
+                    </li>
+                    <li role="none">
+                        <a id="voci-nav" href="/pages/voci.html">Voci</a>
+                        <ul id="voci-subnav" role="menu" class="sub-nav">
+                            <li role="menuitem"><a href="/pages/voci/voci_A.html">A1/A2</a></li>
+                            <li role="menuitem"><a href="/pages/voci/voci_B.html">B1/B2</a></li>
+                        </ul>
+                    </li>
+                    <li role="none">
+                        <a id="hören-nav" href="/pages/hören.html">Hören</a>
+                        <ul id="hören-subnav" role="menu" class="sub-nav">
+                            <li role="menuitem"><a href="/pages/hören/hören_A.html">A1/A2</a></li>
+                            <li role="menuitem"><a href="/pages/hören/hören_B.html">B1/B2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </header>
+        <main>
+            
+        </main>
     </div>
 </body>
 </html>
