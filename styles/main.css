@@ -50,9 +50,10 @@ a:hover {
     list-style: none;
     position: relative;
     background-color:#BBE2EC;
-    padding: 0px 40px;
+    padding: 0% 3%;
     position: fixed;
     padding-right: 10%;
+    z-index: 1;
 }
 .logo img {
     width: 70px;
@@ -107,7 +108,7 @@ a:hover {
     display: none;
 }
 
-@media (pointer:none), (pointer:coarse), (max-width: 610px){
+@media /*(pointer:none), (pointer:coarse),*/ (max-width: 610px){
     .menu {
         flex-direction: column;
         align-items: center;
@@ -151,6 +152,22 @@ a:hover {
     .img {
         width: 400px;
     }
+
+    .grid_container {
+        grid-template-columns: 1fr !important;
+    }
+
+    .left-nav > ul {
+        position: relative !important;
+    }
+
+    .left-nav {
+        justify-content: center;
+        text-align: center;
+        width: 100% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
 }
 
 .willkommen h1 {
@@ -187,9 +204,10 @@ a:hover {
 }
 
 .left-nav {
-    margin-top: 10px;
     padding-left: 3%;
-    width: 250px;
+    padding-right: 3%;
+    width: 210px;
+    background-color: #fff6e9;
 }
 
 .left-nav ul li {
@@ -210,8 +228,8 @@ footer > p {
 
 footer {
     padding-top: 20px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 4%;
+    padding-right: 8%;
     padding-bottom: 20px;
     font-size: 14px;
     background-color:#BBE2EC;
@@ -219,6 +237,10 @@ footer {
 
 .spacer {
     margin-bottom: 30px;
+}
+
+.mini-spacer {
+    margin-bottom: 20px;
 }
 .container {
     margin-top: 30px;
@@ -230,7 +252,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #0D9276;
-    margin-top: 25px;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 
 .container h2 {
@@ -247,6 +270,7 @@ footer {
     margin: 10px;
     background-color: white;
     border-radius: 20px;
+    /*grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));*/
 }
 
 .container-boxes .box a {
@@ -296,3 +320,32 @@ table, td, th {
     padding-top: 10px;
   }
 
+  .grid_container {
+    margin-bottom: auto;
+    padding-top: 74px;
+    padding-bottom: 20px;
+    /*background-color: #0D9276;*/
+    grid-template-columns: 200px 1fr;
+    display: grid;
+  }
+
+  .grid_container main {
+    margin: 0 0 0 0;
+    margin-bottom: auto;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+.left-nav > ul {
+    position: fixed;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.video {
+    padding-top: 40px;
+    padding-left: 200px;
+}
