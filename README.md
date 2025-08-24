@@ -1,4 +1,4 @@
-# ims-431-web-projekt
+# Sprachwelt
 
 ## Projektbeschreibung
 
@@ -9,7 +9,3 @@
 - **Hören:** Aufgaben und Materialien zum Trainieren des Hörverständnisses mit authentischen Dialogen.
 
 Die Seite ist übersichtlich gestaltet und richtet sich sowohl an Anfänger als auch an Fortgeschrittene. Ziel ist es, das Englischlernen einfach, motivierend und praxisnah zu gestalten.
-
----
-
-© 2024 SprachWelt
